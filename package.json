@@ -1,0 +1,27 @@
+{
+  "name": "web-planer",
+  "version": "1.0.0",
+  "description": "webpack project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --open --mode development",
+    "build": "webpack-dev-server --open --mode production"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "webpack",
+    "planer-studio"
+  ],
+  "author": "prizrak",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "g": "^2.0.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.1.14",
+    "path": "^0.12.7"
+  }
+}
